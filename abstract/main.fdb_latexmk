@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1714674411 "c:/Users/Martina/Desktop/ReConPatch-torch/abstract/main.tex" "main.pdf" "main" 1714674412 0
+["pdflatex"] 1714679175 "c:/Users/Martina/Desktop/ReConPatch-torch/abstract/main.tex" "main.pdf" "main" 1714679175 0
   "C:/Users/Martina/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1714671344 132155 4a54a775e7b89d583732991d79d7c6cc ""
   "C:/Users/Martina/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1698305596 24176129 7c80cf37c099d5e1a60f896827f88782 ""
   "C:/Users/Martina/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -35,11 +35,13 @@
   "C:/Users/Martina/AppData/Local/Programs/MiKTeX/tex/latex/base/atveryend-ltx.sty" 1687174146 2462 91a1cb69153367feea29040eef0c27f4 ""
   "C:/Users/Martina/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1623003186 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "C:/Users/Martina/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty" 1601897756 46845 3b58f70c6e861a13d927bff09d35ecbc ""
+  "C:/Users/Martina/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/color.cfg" 1465894292 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "C:/Users/Martina/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/graphics.cfg" 1465894292 1224 978390e9c2234eab29404bc21b268d1e ""
   "C:/Users/Martina/AppData/Local/Programs/MiKTeX/tex/latex/graphics-def/pdftex.def" 1663918690 19448 1e988b341dda20961a6b931bcde55519 ""
   "C:/Users/Martina/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphics.sty" 1665067579 18387 8f900a490197ebaf93c02ae9476d4b09 ""
   "C:/Users/Martina/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphicx.sty" 1665067579 8010 a8d949cbdbc5c983593827c9eec252e1 ""
   "C:/Users/Martina/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty" 1665067579 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
+  "C:/Users/Martina/AppData/Local/Programs/MiKTeX/tex/latex/graphics/mathcolor.ltx" 1665067579 3171 1cf0d440b5464e2f034398ce4ef36f75 ""
   "C:/Users/Martina/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.sty" 1665067579 4023 293ea1c16429fc0c4cf605f4da1791a9 ""
   "C:/Users/Martina/AppData/Local/Programs/MiKTeX/tex/latex/hycolor/hycolor.sty" 1580380792 18571 4c28a13fc3d975e6e81c9bea1d697276 ""
   "C:/Users/Martina/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hpdftex.def" 1688831805 48313 3e63f55d416cb9a219ad316780ed6e84 ""
@@ -65,10 +67,11 @@
   "C:/Users/Martina/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/Martina/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/Martina/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/Martina/Desktop/ReConPatch-torch/abstract/main.tex" 1714674411 2916 d2f2badc8ce5121af9ab0a0992e8af38 ""
-  "main.aux" 1714674412 1089 ac96e93cc73b465edb0e2f4f5441e2d0 "pdflatex"
-  "main.out" 1714674412 353 d0a481003687851a5b49cb2806cb0b77 "pdflatex"
-  "main.tex" 1714674411 2916 d2f2badc8ce5121af9ab0a0992e8af38 ""
+  "C:/Users/Martina/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
+  "c:/Users/Martina/Desktop/ReConPatch-torch/abstract/main.tex" 1714679174 3011 a77097b5e7548e9bbaca501bb77a32e8 ""
+  "main.aux" 1714679175 1089 ac96e93cc73b465edb0e2f4f5441e2d0 "pdflatex"
+  "main.out" 1714679175 353 d0a481003687851a5b49cb2806cb0b77 "pdflatex"
+  "main.tex" 1714679174 3011 a77097b5e7548e9bbaca501bb77a32e8 ""
   (generated)
   "main.aux"
   "main.log"
