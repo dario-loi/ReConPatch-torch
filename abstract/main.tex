@@ -1,4 +1,8 @@
-\documentclass{IEEEtran}
+\documentclass[journal,10pt,onecolumn,draftclsnofoot,]{IEEEtran}
+\usepackage{lipsum}
+\usepackage{graphicx} 
+\usepackage{microtype}
+\usepackage{hyperref}
 
 \author{
     Dario Loi --- 1940849 \and \\
@@ -8,8 +12,46 @@
 
 \title{Project Proposal: ReConPatch}
 
-
 \begin{document}
 \maketitle
+\section{abstract}
 
+In this project, our primary objective is to explore and implement advanced computer
+ vision techniques for \textbf{anomaly detection} within the context of industrial manufacturing. 
+
+We seek to unlock its full potential in augmenting the 
+efficiency and precision of anomaly detection tasks by also boosting its accuracy and reliability.
+We are willing to demonstrate, with our own implementation, the effectiveness of CV based methods and their potential to be applied in real-world scenarios.
+\section{objective}
+We aim to reimplement and potentially advance the ReConPatch method 
+     proposed in the paper titled \textbf{"ReConPatch: Anomaly Detection by Linear Modulation of
+      Pretrained Features."} \cite{ReConPatch}
+      This method addresses the challenge of anomaly detection by 
+      constructing discriminative features through a linear modulation of patch features
+       extracted from pre-trained models and employs contrastive representation learning to collect and distribute features in a way
+       that produces a target-oriented and easily separable representation of the data.
+\section{resources}
+ We plan to compare our implementation with the original ReConPatch method
+      to evaluate its performance and identify potential areas for improvement.
+       We will use the data from \textbf{MVTec AD}\cite{MVTec AD} and \textbf{BTAD}\cite{BTAD} dataset that have been used in the original paper.\\
+       Additionally, all the code and data will be stored in a GitHub repository for version control and collaboration,
+       at the following link: \textbf{\url{https://github.com/dario-loi/ReConPatch-torch}}
+    
+    
+
+\begin{thebibliography}{00}
+\bibitem{ReConPatch}
+Hyun, Jeeho \& Kim, Sangyun \& Jeon, Giyoung \& Kim, Seung \& Bae, Kyunghoon \& Kang, Byung. (2023). ReConPatch : Contrastive Patch Representation Learning for Industrial Anomaly Detection.
+\bibitem{MVTec AD}
+Paul Bergmann, Michael Fauser, David Sattlegger, and
+Carsten Steger. Mvtec ad–a comprehensive real-world
+dataset for unsupervised anomaly detection. In Proceedings
+of the IEEE/CVF conference on computer vision and pattern
+recognition, pages 9592–9600, 2019
+\bibitem{BTAD}
+Pankaj Mishra, Riccardo Verk, Daniele Fornasier, Claudio
+Piciarelli, and Gian Luca Foresti. Vt-adl: A vision transformer 
+network for image anomaly detection and localization. In 2021 IEEE
+ 30th International Symposium on Industrial Electronics (ISIE), pages 01–06. IEEE, 2021.
+\end{thebibliography} 
 \end{document}
