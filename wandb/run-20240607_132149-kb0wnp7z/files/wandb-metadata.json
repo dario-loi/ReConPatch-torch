@@ -1,0 +1,52 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.11.5",
+    "heartbeatAt": "2024-06-07T10:21:51.571833",
+    "startedAt": "2024-06-07T10:21:49.644137",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/dario-loi/ReConPatch-torch.git",
+        "commit": "ec431c25e602c35613747fced3aa5674f0b8c863"
+    },
+    "email": "117894805+MartinaDoku2001@users.noreply.github.com",
+    "root": "C:/Users/Martina/Desktop/ReConPatch-torch",
+    "host": "DESKTOP-34B85RQ",
+    "username": "Martina",
+    "executable": "c:\\Users\\Martina\\anaconda3\\python.exe",
+    "cpu_count": 24,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 3000.0,
+        "min": 0.0,
+        "max": 3000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3000.0,
+            "min": 0.0,
+            "max": 3000.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 930.7275352478027,
+            "used": 653.8648567199707
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4060 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4060 Ti",
+            "memory_total": 17175674880
+        }
+    ],
+    "memory": {
+        "total": 31.837902069091797
+    }
+}
