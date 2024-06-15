@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+# Manual additions
+wandb
+data
+lightning_logs
+*.zip
+
 # Distribution / packaging
 .Python
 build/
