@@ -138,17 +138,31 @@
               \end{itemize}
               \end{itemize}
   \end{frame}
+  \begin{frame}{Patch-Level Features Extraction}
+        \begin{itemize}
+                \item The model uses a \textbf{pre-trained} WideResNet-50 to extract
+                 the patch-level features from the input images.
+                \item The features are extracted from the \textbf{last convolutional layer} of the network.
+                \item The features are then \textbf{flattened} and passed through a double \textbf{representation learning network}
+                 to train the feature embeddings.
+                \end{itemize}
+  \end{frame}
   \begin{frame}{Double network structure}
       \begin{itemize}
               \item The model consists of  an online network and a target network.
               \item \textbf{Online network}:
                   \begin{itemize}
-                          \item  The online network is used to encode the input images and compute the patch-level features.
+                          \item  The online network itakes as input the patch-level features.
+                          \item The online netwrok processes the features through a representation and projection
+                           layers and sends the result as input of the loss function.
                           \item The online network is updated during training using the contrastive loss.
+                          
+                          
                           \end{itemize}
                   \item \textbf{Target network}:
                           \begin{itemize}
                                 \item The target network is a copy of the online network that is used to compute the similarity between patches.
+                                \item The target network sends the result of the similarity computation as input of the loss function.
                                 \item The target network is updated using an exponential moving average of the online network's parameters.
                                 \end{itemize}
 
