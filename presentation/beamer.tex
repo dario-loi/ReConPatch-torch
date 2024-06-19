@@ -2,6 +2,11 @@
 \usepackage{amsfonts,amsmath,oldgerm}
 \usepackage{graphicx}
 \usepackage{hyperref}
+
+\usepackage[backend=biber]{biblatex}
+\addbibresource{presentation.bib}
+\AtBeginBibliography{\small}
+
 \usetheme{sintef}
 
 \newcommand{\testcolor}[1]{\colorbox{#1}{\textcolor{#1}{test}}~\texttt{#1}}
@@ -11,6 +16,7 @@
 \titlebackground*{assets/background}
 
 \newcommand{\hrefcol}[2]{\textcolor{cyan}{\href{#1}{$#2$}}}
+
 
 \title{ReConPatch : self-supervision for patch-based anomaly detection}
 \subtitle{Computer Vision}
@@ -38,8 +44,9 @@
           
 \end{frame}
 \begin{frame}{Objective}
-      The goal of this work is to develop a method for anomaly detection that can
-       be applied to a wide range of industrial images and anomalies.\newline
+      The goal of this work is to implement a generalized version of the \textbf{Reconpatch} \cite{reconpatch} paper, 
+      which defines
+       a method for anomaly detection that can be applied to a wide range of industrial images and anomalies.\newline
 
         We aim to create a \textbf{generalized} model that is 
         trained in a \textbf{self-supervised} manner, on all the normal images of the
@@ -52,7 +59,7 @@
 \begin{frame}{Data}
 \begin{columns}
 \begin{column}{0.7\textwidth}
-      We worked on the \textbf{MVTec AD} dataset by MVTec Software GmbH (2019), which is a
+      We worked on the \textbf{MVTec AD} \cite{mvtecad} dataset by MVTec Software GmbH (2019), which is a
        widely used benchmark for anomaly detection in industrial images.\newline
 
         The dataset contains images of \textbf{15 object categories}, each with a
@@ -140,7 +147,7 @@
   \end{frame}
   \begin{frame}{Patch-Level Features Extraction}
         \begin{itemize}
-                \item The model uses a \textbf{pre-trained} WideResNet-50 to extract
+                \item The model uses a pre-trained \textbf{WideResNet-50}\cite{wideresnet} to extract
                  the patch-level features from the input images.
                 \item The features are extracted from the \textbf{last convolutional layer} of the network.
                 \item The features are then \textbf{flattened} and passed through a double \textbf{representation learning network}
@@ -187,7 +194,7 @@
 \begin{frame}{Inference Pipeline}
       \begin{itemize}
               \item During inference, the model is used to encode the test images
-               and compute the anomaly score for each patch.
+               and compute the anomaly score for each patch \cite{patchcore}.
               \item  After training a \textbf{coreset} of features $r^*$ is selected
               using a greedy approximation algorith and stored in 
               a \textbf{Memory Bank} $\mathcal{M}$.
@@ -221,7 +228,7 @@
               \end{itemize}
 \end{frame}
 \begin{frame}{Results}
-      We evaluated the model on the \textbf{MVTec AD} dataset using the \textbf{AUROC} metric.
+      We evaluated the model on the \textbf{MVTec AD}\cite{mvtecad} dataset using the \textbf{AUROC} metric.
       We obtained an \textbf{AUROC} of \textbf{0.60} on the \textbf{patch-level} and \textbf{0.70} 
       on the \textbf{image-level}.
 \end{frame}
@@ -248,9 +255,10 @@
                 to improve the detection of anomalies.
                 \end{itemize}
 \end{frame}
-\begin{frame}{References}
-\end{frame}
 
+\begin{frame}[allowframebreaks, noframenumbering]{References}
+\printbibliography
+\end{frame}
 
 
 \backmatter

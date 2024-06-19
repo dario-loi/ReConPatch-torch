@@ -1,0 +1,115 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{mvtecad}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=a3eb3e20ba90926cc2bea3b942ebff5a}{%
+           family={Bergmann},
+           familyi={B\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=b04c115f4376439a81f0c6c03fe62333}{%
+           family={Fauser},
+           familyi={F\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1dd00bcff7e32bdddd6c7dc86fcc3181}{%
+           family={Sattlegger},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=689993c5c754fc6fa61f8743fa0c4bbf}{%
+           family={Steger},
+           familyi={S\bibinitperiod},
+           given={Carsten},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{a915260bf6061924c579844ecd376cfa}
+      \strng{fullhash}{fbe8a9b5bb1264b8c26e321fa59c293b}
+      \strng{bibnamehash}{a915260bf6061924c579844ecd376cfa}
+      \strng{authorbibnamehash}{a915260bf6061924c579844ecd376cfa}
+      \strng{authornamehash}{a915260bf6061924c579844ecd376cfa}
+      \strng{authorfullhash}{fbe8a9b5bb1264b8c26e321fa59c293b}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the IEEE/CVF conference on computer vision and pattern recognition}
+      \field{title}{MVTec AD--A comprehensive real-world dataset for unsupervised anomaly detection}
+      \field{year}{2019}
+      \field{pages}{9592\bibrangedash 9600}
+      \range{pages}{9}
+    \endentry
+    \entry{reconpatch}{misc}{}
+      \name{author}{6}{}{%
+        {{hash=2b7706416b0df30fc158b386e15ab3ba}{%
+           family={Hyun},
+           familyi={H\bibinitperiod},
+           given={Jeeho},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6123ede94b1671adc076d433a2c99d6a}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Sangyun},
+           giveni={S\bibinitperiod}}}%
+        {{hash=514ad8d37729bd1040336414e8a26513}{%
+           family={Jeon},
+           familyi={J\bibinitperiod},
+           given={Giyoung},
+           giveni={G\bibinitperiod}}}%
+        {{hash=01b195ac1507ded8943b90b21c3d7b4f}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Seung\bibnamedelima Hwan},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=e0ea731b5909c89b80006b718544e92d}{%
+           family={Bae},
+           familyi={B\bibinitperiod},
+           given={Kyunghoon},
+           giveni={K\bibinitperiod}}}%
+        {{hash=3d0f24f105c486621aad7703de9245bf}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Byung\bibnamedelima Jun},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{aaf78150d0365387d052c9a30e48312d}
+      \strng{fullhash}{dc324639f92e368f636a1c7852e05aa8}
+      \strng{bibnamehash}{aaf78150d0365387d052c9a30e48312d}
+      \strng{authorbibnamehash}{aaf78150d0365387d052c9a30e48312d}
+      \strng{authornamehash}{aaf78150d0365387d052c9a30e48312d}
+      \strng{authorfullhash}{dc324639f92e368f636a1c7852e05aa8}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{id='cs.CV' full_name='Computer Vision and Pattern Recognition' is_active=True alt_name=None in_archive='cs' is_general=False description='Covers image processing, computer vision, pattern recognition, and scene understanding. Roughly includes material in ACM Subject Classes I.2.10, I.4, and I.5.'}
+      \field{eprinttype}{arXiv}
+      \field{title}{ReConPatch : Contrastive Patch Representation Learning for Industrial Anomaly Detection}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2305.16713
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
