@@ -101,12 +101,91 @@
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eprintclass}{id='cs.CV' full_name='Computer Vision and Pattern Recognition' is_active=True alt_name=None in_archive='cs' is_general=False description='Covers image processing, computer vision, pattern recognition, and scene understanding. Roughly includes material in ACM Subject Classes I.2.10, I.4, and I.5.'}
       \field{eprinttype}{arXiv}
       \field{title}{ReConPatch : Contrastive Patch Representation Learning for Industrial Anomaly Detection}
       \field{year}{2024}
       \verb{eprint}
       \verb 2305.16713
+      \endverb
+    \endentry
+    \entry{patchcore}{misc}{}
+      \name{author}{6}{}{%
+        {{hash=c1f1f379c3f4cdd1090793edbecc9131}{%
+           family={Roth},
+           familyi={R\bibinitperiod},
+           given={Karsten},
+           giveni={K\bibinitperiod}}}%
+        {{hash=45218f1c6f51df14328708aab1d373f6}{%
+           family={Pemula},
+           familyi={P\bibinitperiod},
+           given={Latha},
+           giveni={L\bibinitperiod}}}%
+        {{hash=95c65ad5ad4a644cd5e30907d232f7ec}{%
+           family={Zepeda},
+           familyi={Z\bibinitperiod},
+           given={Joaquin},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ca31cc11ec9370460148c3a9c48fce45}{%
+           family={Schölkopf},
+           familyi={S\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+        {{hash=b452a32296958371572717940f900884}{%
+           family={Brox},
+           familyi={B\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=243792a2a91226fb9a96133dc17844be}{%
+           family={Gehler},
+           familyi={G\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{de794c019a92cc6d2519f754530c744a}
+      \strng{fullhash}{ea20651336eaa4bba9b1b8c5cf214675}
+      \strng{bibnamehash}{de794c019a92cc6d2519f754530c744a}
+      \strng{authorbibnamehash}{de794c019a92cc6d2519f754530c744a}
+      \strng{authornamehash}{de794c019a92cc6d2519f754530c744a}
+      \strng{authorfullhash}{ea20651336eaa4bba9b1b8c5cf214675}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{title}{Towards Total Recall in Industrial Anomaly Detection}
+      \field{year}{2022}
+      \verb{eprint}
+      \verb 2106.08265
+      \endverb
+    \endentry
+    \entry{wideresnet}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=23bcbde34947ed4fd04cc55ff956c83e}{%
+           family={Zagoruyko},
+           familyi={Z\bibinitperiod},
+           given={Sergey},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1b19df6325edc9e76749ac30a9d962c7}{%
+           family={Komodakis},
+           familyi={K\bibinitperiod},
+           given={Nikos},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{d6318237b805b7959eba1465dd40cf0a}
+      \strng{fullhash}{d6318237b805b7959eba1465dd40cf0a}
+      \strng{bibnamehash}{d6318237b805b7959eba1465dd40cf0a}
+      \strng{authorbibnamehash}{d6318237b805b7959eba1465dd40cf0a}
+      \strng{authornamehash}{d6318237b805b7959eba1465dd40cf0a}
+      \strng{authorfullhash}{d6318237b805b7959eba1465dd40cf0a}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{title}{Wide Residual Networks}
+      \field{year}{2017}
+      \verb{eprint}
+      \verb 1605.07146
       \endverb
     \endentry
   \enddatalist

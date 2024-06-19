@@ -188,7 +188,17 @@
               \item The \textbf{batch size} is set to 32
               \item The model is trained for a total of \textbf{100 epochs}, with an \textbf{early stopping
                criterion} based on the validation loss, with a patience of 10 epochs.
+              \item The final training loss is \textbf{0.000106}
+              \item The final validation loss is \textbf{0.000129}
               \end{itemize}
+              
+\end{frame}
+
+\begin{frame}{Training Results}
+    \centering
+    \includegraphics[width=0.40\textwidth]{assets/train_loss.png}
+    \hspace{0.04\textwidth}
+    \includegraphics[width=0.40\textwidth]{assets/val_loss.png}
 \end{frame}
 
 \begin{frame}{Inference Pipeline}
@@ -229,10 +239,17 @@
 \end{frame}
 \begin{frame}{Results}
       We evaluated the model on the \textbf{MVTec AD}\cite{mvtecad} dataset using the \textbf{AUROC} metric.
-      We obtained an \textbf{AUROC} of \textbf{0.60} on the \textbf{patch-level} and \textbf{0.70} 
-      on the \textbf{image-level}.
+      We obtained an \textbf{AUROC} of \textbf{0.619} on the \textbf{image-level} and \textbf{0.750} 
+      on the \textbf{pixel-level}.
 \end{frame}
 \begin{frame}{Embedding}
+    \centering
+    \includegraphics[width=0.3\textwidth]{assets/normal_samples_emb.png}
+    \hspace{0.03\textwidth}
+    \includegraphics[width=0.3\textwidth]{assets/def_sample_emb.png}
+    \hspace{0.03\textwidth}
+    \includegraphics[width=0.3\textwidth]{assets/rand_img_emb.png}
+
 \end{frame}
 \section{Conclusion}
 

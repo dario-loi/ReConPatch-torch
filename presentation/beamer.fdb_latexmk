@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber beamer"] 1718788233.0276 "beamer.bcf" "beamer.bbl" "beamer" 1718788243.83928 0
-  "beamer.bcf" 1718788243.6771 108021 e9e0b40bdbd2617a59c1b9e7ccf0b381 "pdflatex"
+["biber beamer"] 1718808240.74369 "beamer.bcf" "beamer.bbl" "beamer" 1718809446.57331 0
+  "beamer.bcf" 1718809446.43066 108021 e9e0b40bdbd2617a59c1b9e7ccf0b381 "pdflatex"
   "presentation.bib" 1718788197.1891 1132 362932a741495bb4bbfaebd418273fb0 ""
   (generated)
   "beamer.bbl"
   "beamer.blg"
   (rewritten before read)
-["pdflatex"] 1718788240.63494 "/home/elenamuia/repos/airo/first_year/sec_sem/cv/ReConPatch/ReConPatch-torch/presentation/beamer.tex" "beamer.pdf" "beamer" 1718788243.83965 0
+["pdflatex"] 1718809442.77154 "/home/elenamuia/repos/airo/first_year/sec_sem/cv/ReConPatch/ReConPatch-torch/presentation/beamer.tex" "beamer.pdf" "beamer" 1718809446.57367 0
   "/etc/texmf/web2c/texmf.cnf" 1718708880.67476 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/elenamuia/repos/airo/first_year/sec_sem/cv/ReConPatch/ReConPatch-torch/presentation/beamer.tex" 1718788229.16572 12375 72b87672ea131f8cb05488831e506488 ""
+  "/home/elenamuia/repos/airo/first_year/sec_sem/cv/ReConPatch/ReConPatch-torch/presentation/beamer.tex" 1718809442.52062 13023 315f1a5483d895cd46f80623b9d55a14 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/caladea/cld_prieif.enc" 1408564761 2909 0d9a00ce3f1df725b182b15dd24bf4a5 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/carlito/crlt_j4hweq.enc" 1664999222 3199 785d1f4f03ee0bb70108af8679871db0 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/carlito/crlt_zisnlb.enc" 1664999222 3105 fe84215d6e1e68b95a7d9a8041ee418c ""
@@ -263,18 +263,23 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1718714458.77173 5312232 f3296911be9cc021788f3f879cf0a47d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1718713580 6800784 9eff12e480f75afa18e1f2353451a936 ""
   "assets/background.png" 1718703381.69164 241825 79d92ee3b5ca7e83294b4305bf475d50 ""
+  "assets/def_sample_emb.png" 1718808070.18728 121508 75a343ab622a69b6ffe72d259bf7c65f ""
   "assets/logo_RGB.png" 1718703381.70764 494820 a10b3732d93cddcbd6928b39cd163f2b ""
   "assets/logo_RGB_negative.png" 1718703381.71964 547777 b363a1977408f693d33310188189080a ""
   "assets/masks.png" 1718703381.72364 587105 1e258889f533b5cb69f227b9270b795f ""
   "assets/model.jpg" 1718703381.72764 148807 b8bc6fbcf016ff9899ffe1435b4b0207 ""
   "assets/mvtec.jpg" 1718703381.72764 55130 7d7fe0c6082168a1a3a6ec7f261133ff ""
-  "beamer.aux" 1718788243.6721 5993 1b653c37ff82031d061961e47cd08c90 "pdflatex"
-  "beamer.bbl" 1718788234.3395 7259 64eca23992510ecbe3f0c43786dafcc8 "biber beamer"
-  "beamer.nav" 1718788243.6791 3493 fceca41ad6958f79901130110450bec0 "pdflatex"
-  "beamer.out" 1718788243.6731 523 3180a438f346cdddd57ba03f93c877dc "pdflatex"
-  "beamer.run.xml" 1718788243.6781 2321 83d7ad6df2ea5720b68be24acd8a517a "pdflatex"
-  "beamer.tex" 1718788229.16572 12375 72b87672ea131f8cb05488831e506488 ""
-  "beamer.toc" 1718788243.6791 225 76165571971f697f8a186baa97362a21 "pdflatex"
+  "assets/normal_samples_emb.png" 1718808070.22128 120854 9d938d82ec974832c0a2511b43fc8679 ""
+  "assets/rand_img_emb.png" 1718808070.25028 120732 f5c7af5eff81994e484de81c68725f33 ""
+  "assets/train_loss.png" 1718807633.90854 175927 19807183e9b3f724a3f5b617f8103608 ""
+  "assets/val_loss.png" 1718807633.98055 154533 9c48b9f8ba88af0ec7c0524d9b6d3adb ""
+  "beamer.aux" 1718809446.42666 6121 a26c57998c47d1d0d079f8488e0e0b76 "pdflatex"
+  "beamer.bbl" 1718808241.90173 7259 64eca23992510ecbe3f0c43786dafcc8 "biber beamer"
+  "beamer.nav" 1718809446.43166 3585 90fa483876d04171535fa0c6064eea9a "pdflatex"
+  "beamer.out" 1718809446.42766 523 3180a438f346cdddd57ba03f93c877dc "pdflatex"
+  "beamer.run.xml" 1718809446.43166 2321 83d7ad6df2ea5720b68be24acd8a517a "pdflatex"
+  "beamer.tex" 1718809442.52062 13023 315f1a5483d895cd46f80623b9d55a14 ""
+  "beamer.toc" 1718809446.43166 225 9a111a8058d9b0e8c36ce13ef8c0b2ec "pdflatex"
   "beamerthemesintef.sty" 1718703381.74764 9661 9aeb4cc3f7fa04cd7535c6b707b43157 ""
   "sintefcolor.sty" 1718703381.74764 990 a7ed447287d91bda8cf8272de2561996 ""
   (generated)
