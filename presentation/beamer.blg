@@ -1,15 +1,15 @@
-[0] Config.pm:307> INFO - This is Biber 2.19
-[0] Config.pm:310> INFO - Logfile is 'beamer.blg'
-[86] biber:340> INFO - === mer giu 19, 2024, 16:44:01
-[103] Biber.pm:419> INFO - Reading 'beamer.bcf'
-[155] Biber.pm:979> INFO - Found 4 citekeys in bib section 0
-[166] Biber.pm:4419> INFO - Processing section 0
-[178] Biber.pm:4610> INFO - Looking for bibtex file 'presentation.bib' for section 0
-[179] bibtex.pm:1713> INFO - LaTeX decoding ...
-[183] bibtex.pm:1519> INFO - Found BibTeX data source 'presentation.bib'
-[246] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[246] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[246] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[246] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[250] bbl.pm:660> INFO - Writing 'beamer.bbl' with encoding 'UTF-8'
-[252] bbl.pm:763> INFO - Output to beamer.bbl
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is 'beamer.blg'
+[327] biber-MSWIN32:340> INFO - === 
+[444] Biber.pm:418> INFO - Reading 'beamer.bcf'
+[840] Biber.pm:978> INFO - Found 4 citekeys in bib section 0
+[897] Biber.pm:4401> INFO - Processing section 0
+[938] Biber.pm:4592> INFO - Looking for bibtex file 'presentation.bib' for section 0
+[1085] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1128] bibtex.pm:1518> INFO - Found BibTeX data source 'presentation.bib'
+[1336] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1336] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1337] Biber.pm:4221> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[1337] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
+[1353] bbl.pm:654> INFO - Writing 'beamer.bbl' with encoding 'UTF-8'
+[1364] bbl.pm:757> INFO - Output to beamer.bbl
