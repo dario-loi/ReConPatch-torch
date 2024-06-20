@@ -97,7 +97,7 @@
   \end{frame}
 \begin{frame}{Patch-based Anomaly Detection}
       \begin{itemize}
-          \item The \textbf{loss $\mathcal{L}$} on which the model is trained is based on the similarity
+          \item The \textbf{relaxed contrastive loss $\mathcal{L}$} used to train the model is based on the similarity
            between patches of the same image.
            \begin{equation} \mathcal{L} = \frac{1}{N}\sum_{i=1}^{N} \sum_{j=1}^{N} 
             \omega_{ij}\delta_{ij}^2 + (1 - \omega_{ij})\max(0, m - \delta_{ij})^2
@@ -158,18 +158,18 @@
               \item The model consists of  an online network and a target network.
               \item \textbf{Online network}:
                   \begin{itemize}
-                          \item  The online network itakes as input the patch-level features.
-                          \item The online netwrok processes the features through a representation and projection
+                          \item Takes as input the patch-level features.
+                          \item Processes the features through a representation and projection
                            layers and sends the result as input of the loss function.
-                          \item The online network is updated during training using the contrastive loss.
+                          \item Is updated during training using the contrastive loss.
                           
                           
                           \end{itemize}
                   \item \textbf{Target network}:
                           \begin{itemize}
-                                \item The target network is a copy of the online network that is used to compute the similarity between patches.
-                                \item The target network sends the result of the similarity computation as input of the loss function.
-                                \item The target network is updated using an exponential moving average of the online network's parameters.
+                                \item It's a copy of the online network that is used to compute the similarity between patches.
+                                \item Sends the result of the similarity computation as input of the loss function.
+                                \item Is updated using an exponential moving average of the online network's parameters.
                                 \end{itemize}
 
                   \end{itemize}
